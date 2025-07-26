@@ -8,21 +8,29 @@ class Employee():
         self.level = level
         self.seniority = yrsService
 
-    # TODO: implement comparison functions by emp level
+    # implement comparison functions by emp level
     def __ge__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority >= other.seniority
+        return self.level >= other.level
 
     def __gt__(self, other):
-        pass
+        if self.level == other.level:
+            return self. seniority > other.seniority
+        return self.level > other.level
 
     def __lt__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority < other.seniority
+        return self.level < other.level
 
     def __le__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority <= other.seniority
+        return self.level <= other.level
 
     def __eq__(self, other):
-        pass
+        return self.level == other.level
 
 
 def main():
@@ -34,10 +42,16 @@ def main():
     dept.append(Employee("Rebecca", "Robinson", 5, 13))
     dept.append(Employee("Tyler", "Durden", 5, 12))
 
-    # TODO: Who's more senior?
+    # Who's more senior?
+    print(bool(dept[0] > dept[2]))
+    print(bool(dept[4] < dept[3]))
+    print(bool(dept[1] > dept[3]))
+    print(bool(dept[2] < dept[3]))
 
-    # TODO: sort the items
-
+    # sort the items
+    emps = sorted(dept)
+    for i in emps:
+        print(i.lname)
 
 if __name__ == "__main__":
     main()

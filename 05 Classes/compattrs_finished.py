@@ -27,7 +27,7 @@ class myColor():
 
     # use dir to list the available properties
     def __dir__(self):
-        return ("rgbolor", "hexcolor")
+        return ("rgbcolor", "hexcolor")
 
 
 def main():
