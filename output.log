@@ -1,0 +1,19 @@
+DEBUG:root:Das ist eine Debug-Nachricht
+INFO:root:Das ist eine Info-Nachricht
+WARNING:root:Das ist eine Warning-Nachricht
+ERROR:root:Das ist eine Error-Nachricht
+CRITICAL:root:Das ist eine Critical-Nachricht
+INFO:root:Hier ist eine string Variable und ein int: 10
+07/27/2025 04:36:29 PM: INFO: main Zeile:19 User:Serhat Das ist eine info-Level-Nachricht
+07/27/2025 04:36:29 PM: DEBUG: meineProtokollFunc Zeile:8 User:Serhat Das ist eine Debug level Nachricht
+07/27/2025 04:37:33 PM: INFO: main Zeile:19 User:Serhat Das ist eine info-Level-Nachricht
+07/27/2025 04:37:33 PM: DEBUG: meineProtokollFunc Zeile:8 User:Serhat Das ist eine Debug level Nachricht
+07/27/2025 04:39:54 PM: INFO: main Zeile:18 User:Ralph Das ist eine Info-Level-Nachricht
+07/27/2025 04:39:54 PM: WARNING: main Zeile:19 User:Ralph Das ist eine Warning-Level-Nachricht
+07/27/2025 04:39:54 PM: DEBUG: meineProtokollFunktion Zeile:8 User:Ralph Das ist eine Debug-Level-Nachricht
+07/27/2025 04:41:25 PM: INFO: main Zeile:18 User:Serhat Das ist eine Info-Level-Nachricht
+07/27/2025 04:41:25 PM: WARNING: main Zeile:19 User:Serhat Das ist eine Warning-Level-Nachricht
+07/27/2025 04:41:25 PM: DEBUG: meineProtokollFunktion Zeile:8 User:Serhat Das ist eine Debug-Level-Nachricht
+07/27/2025 04:41:29 PM: INFO: main Zeile:18 User:Serhat Das ist eine Info-Level-Nachricht
+07/27/2025 04:41:29 PM: WARNING: main Zeile:19 User:Serhat Das ist eine Warning-Level-Nachricht
+07/27/2025 04:41:29 PM: DEBUG: meineProtokollFunktion Zeile:8 User:Serhat Das ist eine Debug-Level-Nachricht
